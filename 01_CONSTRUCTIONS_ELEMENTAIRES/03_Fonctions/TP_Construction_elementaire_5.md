@@ -74,8 +74,9 @@ turtle.forward(100)
 <u>Résultat attendu :</u>
 
 <figure style="text-align:center">
-<img src="../Cours/Images/rose.png">*
+<img src="../Images/rose.png">*
 </figure>
+
 
 
 ## Exercice 4 : 

@@ -119,6 +119,3 @@ elif valeur < 16:
 else :
     chaine = "La variable est supérieure 16"
 ```
-
-
-
