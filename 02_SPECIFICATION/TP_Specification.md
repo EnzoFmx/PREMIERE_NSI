@@ -89,6 +89,4 @@ Des variables s'appelant **var** ou **a** n'apportent aucune précision sur leur
 
 <u>Exemple :</u> 
 
-<figure style="text-align:center">
-<img src="Images/doc_pythagore.png" width="" height="">
-</figure>
+![](./Images/doc_pythagore.png)
