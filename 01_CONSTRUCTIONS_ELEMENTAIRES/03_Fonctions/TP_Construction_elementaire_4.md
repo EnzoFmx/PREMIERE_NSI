@@ -4,7 +4,7 @@
 
 ## Exercice 1 :
 
-1. Ecrire la fonction reste(entier_1,diviseur) qui calcule le reste de la division euclidienne de entier_1 par entier_2 **sans utiliser l'opérateur "%"** :
+1. Ecrire la fonction reste(entier_1,diviseur) qui calcule le reste de la division euclidienne de entier_1 par diviseur **sans utiliser l'opérateur "%"** :
 
 ## Exercice 2 : 
 
