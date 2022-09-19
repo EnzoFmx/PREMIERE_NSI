@@ -22,9 +22,12 @@
 ## Exercice 5 : 
 
 1) Ecrire une fonction bissextile(annee) qui renvoie un booléen si année est bissextile
-    - Rappel : Une année est bissextile si elle est divisible par 4 mais **non** divisible par 100 ou divisible par 400 
+    Rappel : Une année est bissextile si 
+    
+    - Elle est divisible par 4 mais **non** divisible par 100
+    - Elle est Divisible par 400 
 2) Ecrire une fonction nombre_jour_annee(annee) qui renvoie le nombre de jour dans l'année (utilisez bissextile)
-    - Rappel : 366 pour une annee bissextile, 365 sinon
+    - Rappel : 366 pour une année bissextile, 365 sinon
 3) Ecrire une fonction nombre_jour_mois(annee, mois) qui renvoie le nombre de jour dans un mois (utilisez bissextile)
     - Utilisez cette formule :
       - Pour le mois de février :
@@ -34,4 +37,3 @@
         - 30 + mois%2
       - Sinon
         - 31 - mois%2
-
