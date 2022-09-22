@@ -29,11 +29,6 @@ Par exemple : turtle.left(90)  Nous appelons la fonction _left()_ du module _tur
 Faites un copier coller de ce code :
 
 ```python
-turtle.reset()
-turtle.home()
-turtle.up()
-turtle.goto(-50,-50)
-turtle.down()
 turtle.forward(100)
 turtle.left(90)
 turtle.forward(100)
@@ -43,7 +38,7 @@ turtle.left(90)
 turtle.forward(100)
 ```
 1. Quelle est la figure dessinée ici ?
-2. Décrire le but de ces fonctions 
+2. Décrire le but de ces fonctions (Vous pouvez vous aider d'internet)
 
 - reset() : Réinitialise le dessin
 
