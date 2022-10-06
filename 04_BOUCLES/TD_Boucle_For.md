@@ -161,8 +161,8 @@ avec le nombre en base 16
 Compléter les '...' : 
 
 ```python
->>> int('16', ...) 
-10000 
+>>> int('10000', ...) 
+16
  
 >>> int(... , 16) 
 46 
