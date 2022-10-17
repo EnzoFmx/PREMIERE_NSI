@@ -81,3 +81,7 @@ La fonction que nous allons utiliser ici est la fonction sleep() celle-ci prend 
 2. Rajouter la fonction time à votre fonction afin de créer un vrai compte à rebours 
 
 3. Ecrire les appels de fonctions pour un compte à rebours de 2min30, 1h, 30 sec.
+
+## 3. Utilisation de boucle non bornée :
+
+1. Ecrire un code (pas de fonction) permettant de simuler un pierre feuille ciseaux **à l'aide d'une boucle while,** la partie est gagnée en 3 manches gagnantes (pensez à input)
