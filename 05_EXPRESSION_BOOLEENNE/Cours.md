@@ -15,9 +15,9 @@ Le type booléen se décline en deux valeurs **True** et **False** (1 et 0).
 Celui-ci est le résultat d'une opération de comparaison tel que :
 
 - <     inférieur à
-- >     supérieur à
+- \> supérieur à
 - <=  inférieur ou égal à
-- >=  supérieur ou égal à
+- \>=  supérieur ou égal à
 - ==  égal à
 - !=   différent de
 
