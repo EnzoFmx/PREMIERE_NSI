@@ -60,7 +60,7 @@ for ind in range(10,45,5):
 
 ### Exercice 2 :
 
-1.  Ecrire une fonction livret_epargne(somme,nb_annee) qui prend en paramètre une somme donnée et un nombre d'année. Cette fonction doit :
+1.  Ecrire une fonction livret_epargne(somme,nb_annee) qui prend en paramètre une somme donnée et un nombre d'années. Cette fonction doit :
 
    - Avoir un taux de 1.5%
 
@@ -68,7 +68,7 @@ for ind in range(10,45,5):
 
    - Renvoyer la somme totale gagnée à l'année *nb_annee*
      
-       a. Quel sera intérêt d'un compte ayant pour mise de départ 1600e au bout de 3 ans ? 10 ans ?
+       a. Quel sera l'intérêt d'un compte ayant pour mise de départ 1600e au bout de 3 ans ? 10 ans ?
 
 
 ## 3. Etat des variables :
