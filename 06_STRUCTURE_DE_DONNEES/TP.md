@@ -14,7 +14,7 @@
    3. Créer un tuple contenant les valeurs : "Prénom", "Nom", 15, False,True,"Spe1","Spe2","Spe3"
    4. Accéder au troisième élément des deux structures
    5. Modifier l'élément de 6ème position par une valeur quelconque. Si cela n'est pas possible, afficher le message d'erreur.
-   6. Déterminer la longueur des deux structures
+   6. Déterminer la longueur des trois structures
 
 ## 2. Fonctions clées des tableaux :
 
