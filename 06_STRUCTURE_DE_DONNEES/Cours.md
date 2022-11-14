@@ -134,7 +134,7 @@ tu2 = ()
 
 # Créer un tuple contenant des éléments
 tu3 = (1,"Nom",True)
-tu4 = tuple(1,False,"prenom")
+tu4 = tuple((1,False,"prenom"))
 ```
 
 | Structure             | Indexé | Taille    | Mutable | Type d'élément         |
