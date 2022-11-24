@@ -2,15 +2,15 @@
 
 ## 1. Adresse IP :
 
-Chaque adresse IP possède une partie consacrée au réseau et une autre consacrée à la partie  machine. Pour différencier ces deux parties, il faut regarder la fin de l'adresse IP, celle après le '/'.
+Chaque adresse IP possède une partie consacrée au réseau et une autre consacrée à la partie machine. Pour différencier ces deux parties, il faut regarder la fin de l'adresse IP, celle après le '/'.
 
 <u>Par exemple :</u>
 
 165.73.2.8/24 est une adresse IP ayant ses 24 bits de gauche consacré à la partie réseaux
 
-- 165.73.2.0 sera l'a
-- dresse réseau
 - Le masque réseau est donc 255.255.255.0
+
+- 165.73.2.0 sera l'adresse réseau
 - Adresse de diffusion sera 165.73.2.255
 
 ### Exercice 1 :
