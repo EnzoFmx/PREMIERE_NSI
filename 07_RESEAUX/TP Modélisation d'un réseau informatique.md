@@ -4,7 +4,7 @@
 
 ## 1. Présentation :
 
-Ce TP a pour but de construire et simuler quelques actions simple d'un réseau informatique. 
+Ce TP a pour but de construire et simuler quelques actions simples d'un réseau informatique. 
 
 Le logiciel utilisé pour ce travail est Filius, une fiche outils est disponible dans le dossier FICHE_OUTILS
 
