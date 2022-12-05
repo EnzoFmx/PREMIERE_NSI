@@ -44,7 +44,8 @@ Afin d'ajouter un élément à un tableau il existe une fonction *append()*
 	........
 ```
 
-2. Quel sera l'appel de fonction pour obtenir le résultat suivant : [1,2,3,4,5] ?
+2. Quel sera l'appel de fonction pour obtenir le résultat suivant : [0,
+2. 1,2,3,4,5] ?
 
 ### 2. 2. Count :
 
