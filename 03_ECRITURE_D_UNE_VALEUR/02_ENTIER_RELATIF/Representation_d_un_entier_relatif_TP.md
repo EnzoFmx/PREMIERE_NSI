@@ -58,8 +58,8 @@ On considère que l'utilisateur à connaissance de cette contrainte (pas à code
 
 ```python
 # Exemple d'une possible fonction :
->>> addition([1,1,0],[0,1,0])
+>>> addition("110","010")
 "000"
->>> addition([1,0,0,1],[0,1,1,0])
+>>> addition("1001","0110")
 "1111"
 ```
