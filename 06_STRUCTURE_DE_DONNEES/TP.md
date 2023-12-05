@@ -16,7 +16,7 @@
    5. Modifier l'élément de 6ème position par une valeur quelconque. Si cela n'est pas possible, afficher le message d'erreur.
    6. Déterminer la longueur des trois structures
 
-## 2. Fonctions clées des tableaux :
+## 2. Fonctions clés des tableaux :
 
 ### 2. 1. Append :
 
