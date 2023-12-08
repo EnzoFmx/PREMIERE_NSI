@@ -12,13 +12,11 @@
    1. Créer un tableau contenant les entiers de 0 à 10 nommé tab
    2. Créer une chaîne de caractères contenant les 15 premières lettres de l'alphabet en minuscule nommé chaine
    3. Créer un tuple contenant les valeurs : "Prénom", "Nom", 15, False,True,"Spe1","Spe2","Spe3"
-   4. Accéder au troisième élément des deux structures
-   5. Modifier l'élément de 6ème position par une valeur quelconque. Si cela n'est pas possible, afficher le message d'erreur.
+   4. Accéder au troisième élément des trois structures
+   5. Modifier l'élément de position 6 par une valeur quelconque. Si cela n'est pas possible, afficher le message d'erreur.
    6. Déterminer la longueur des trois structures
 
-## 2. Fonctions clés des tableaux :
-
-### 2. 1. Append :
+## 2. Ajouter des éléments dans un tableau :
 
 Afin d'ajouter un élément à un tableau il existe une fonction *append()*
 
@@ -29,7 +27,7 @@ Afin d'ajouter un élément à un tableau il existe une fonction *append()*
 [1,2,3]
 ```
 
-1. Ecrire une fonction *tableau*_*premier_nombre()* prenant en paramètre un entier *nb* et qui renvoie un tableau contenant les nombres de 0 à *nb*. 
+1. Ecrire une fonction *tableau*_*premier_nombre()* prenant en paramètre un entier *nb* et qui renvoie un tableau contenant les nombres de 0 à *nb* (inclus). 
 
 ```python
 ... tableau_premier_nombre(...) : 
@@ -44,10 +42,17 @@ Afin d'ajouter un élément à un tableau il existe une fonction *append()*
 	........
 ```
 
-2. Quel sera l'appel de fonction pour obtenir le résultat suivant : [0,
-2. 1,2,3,4,5] ?
+2. Quel sera l'appel de fonction pour obtenir le résultat suivant : [0,1,2,3,4,5] ?
 
-### 2. 2. Count :
+## 3. Connaître la présence d'un élément dans une structure :
+
+Un mot-clé très utile est le mot-clé ***in*** celui-ci permet de connaître la présence ou non d'un élément dans une structure.
+
+**1)** Ecrire des exemples d'utilisation du mot-clé *in*, quel est la valeur de retour après utilisation de ce dernier (Faites des recherches sur internet)
+
+**2)** Ecrire une fonction element_in_structure(struct,el) qui renvoie un booléen, True si *el* est dans la structure *struct,* False sinon. (Deux manières possibles) *(Sans utiliser le mot clé in)*
+
+## 4. Compter les éléments dans une structure :
 
 t.*count(n)* permet de compter le nombre d'éléments n dans un tableau t
 
@@ -68,15 +73,7 @@ t.*count(n)* permet de compter le nombre d'éléments n dans un tableau t
 
 2. Ecrire un appel de fonction pour une liste contenant toutes les voyelles et compte le nombre d'éléments "p"
 
-## 3. Connaître la présence d'un élément dans une structure :
-
-Un mot-clé très utile est le mot-clé ***in*** celui-ci permet de connaître la présence ou non d'un élément dans une structure.
-
-**1)** Ecrire des exemples d'utilisation du mot-clé *in*, quel est la valeur de retour après utilisation de ce dernier (Faites des recherches sur internet)
-
-**2)** Ecrire une fonction element_in_structure(struct,el) qui renvoie un booléen, True si *el* est dans la structure *struct,* False sinon. (Deux manières possibles) *(Sans utiliser le mot clé in)*
-
-## 4. Tableau par compréhension :
+## 5. Tableau par compréhension :
 
 Il existe une autre méthode de construction de tableau, il s'agit des listes par compréhension. Celles-ci permettent de créer des tableaux en une seule ligne.
 
