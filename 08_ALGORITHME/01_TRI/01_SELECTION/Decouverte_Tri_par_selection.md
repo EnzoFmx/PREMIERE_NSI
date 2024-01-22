@@ -32,7 +32,7 @@ ex : [1,3,2] => [1,3,2],[1,2,3],[1,2,3]
 2. Pour finir, l’écrire en **python** sous 3 fonctions :
 
    - Une fonction comp(a,b)
-   - Une fonction position_minimum(tab)
+   - Une fonction position_minimum(tab,ind)
    - Une fonction tri_selection(tab) qui utilise **comp et position_minimum**
 
    ```python
@@ -44,9 +44,10 @@ ex : [1,3,2] => [1,3,2],[1,2,3],[1,2,3]
        renvoie 1 si elem1 > elem2
        """
       
-   def position_minimum(tab):
+   def position_minimum(tab,ind):
        """
-       Fonction qui renvoie la position de l'élément minimum d'un tableau tab
+       Fonction qui renvoie la position de l'élément minimum d'un tableau tab 	   à partir de l'indice ind
+       ind (int) : valeur de départ pour la recherche du minimum
        tab (list) : Tableau de valeur
        return (int) : position du plus petit element
        """
@@ -59,5 +60,5 @@ ex : [1,3,2] => [1,3,2],[1,2,3],[1,2,3]
    	return :  (list) tableau trié
    	"""
    ```
-
+   
    
