@@ -8,7 +8,7 @@ Le tri par sélection peut être illustré comme ceci :
 
 1. Déduire les grandes étapes du tri.
 
-### 2. Application du tri (par ordre croissant) :
+## 2. Application du tri (par ordre croissant) :
 
 1) Décrire les états des tableaux suivant à chaque étape du tri par sélection :
 
@@ -19,7 +19,7 @@ ex : [1,3,2] => [1,3,2],[1,2,3],[1,2,3]
 - t3 = [4,3,2,1]
 - t4 = [8,7,54,3,2,5,5]
 
-### 3. Création de l’algorithme :
+## 3. Création de l’algorithme :
 
 1. Ecrire un algorithme en **pseudo code** avec les étapes de la première partie.
 
@@ -61,4 +61,9 @@ ex : [1,3,2] => [1,3,2],[1,2,3],[1,2,3]
    	"""
    ```
    
-   
+
+## 4. Nombre de comparaisons :
+
+1. Reprendre les tableaux t1, t2, t3, t4 et compter le nombre de fois où la fonction `comp(a,b)`est appelée pour chaque tableau.
+
+2. Généraliser pour un tableau contenant n éléments. Quel sera le nombre de comparaisons fait.
