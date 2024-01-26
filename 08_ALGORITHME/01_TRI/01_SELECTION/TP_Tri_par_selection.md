@@ -31,12 +31,12 @@ ex : [1,3,2] => [1,3,2],[1,2,3],[1,2,3]
 
 2. Pour finir, l’écrire en **python** sous 3 fonctions :
 
-   - Une fonction comp(a,b)
+   - Une fonction comp(elem1,elem2)
    - Une fonction position_minimum(tab,ind)
    - Une fonction tri_selection(tab) qui utilise **comp et position_minimum**
 
    ```python
-   def comp(a,b) :
+   def comp(elem1,elem2) :
    	"""
    	Fonction qui compare deux élément, 
        renvoie -1 si elem1 < elem2
@@ -44,13 +44,7 @@ ex : [1,3,2] => [1,3,2],[1,2,3],[1,2,3]
        renvoie 1 si elem1 > elem2
        """
       
-   def position_minimum(tab,ind):
-       """
-       Fonction qui renvoie la position de l'élément minimum d'un tableau tab 	   à partir de l'indice ind
-       ind (int) : valeur de départ pour la recherche du minimum
-       tab (list) : Tableau de valeur
-       return (int) : position du plus petit element
-       """
+   
        
        
    def tri_selection(tab):
@@ -64,6 +58,6 @@ ex : [1,3,2] => [1,3,2],[1,2,3],[1,2,3]
 
 ## 4. Nombre de comparaisons :
 
-1. Reprendre les tableaux t1, t2, t3, t4 et compter le nombre de fois où la fonction `comp(a,b)`est appelée pour chaque tableau.
+1. Reprendre les tableaux t1, t2, t3, t4 et compter le nombre de fois où la fonction `comp(elem1,elem2)`est appelée pour chaque tableau.
 
 2. Généraliser pour un tableau contenant n éléments. Quel sera le nombre de comparaisons fait.
