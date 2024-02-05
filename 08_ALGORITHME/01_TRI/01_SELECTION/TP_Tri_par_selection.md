@@ -60,4 +60,4 @@ ex : [1,3,2] => [1,3,2],[1,2,3],[1,2,3]
 
 1. Reprendre les tableaux t1, t2, t3, t4 et compter le nombre de fois où la fonction `comp(elem1,elem2)`est appelée pour chaque tableau.
 
-2. Généraliser pour un tableau contenant n éléments. Quel sera le nombre de comparaisons fait.
+2. Généraliser pour un tableau contenant n éléments. Quel sera le nombre de comparaisons faites.
