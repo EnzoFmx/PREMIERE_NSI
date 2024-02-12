@@ -36,8 +36,7 @@ a) Ecrire une fonction **suite_mystere(a : int ,b : int ,c : int)** qui renvoie 
 
 b) Ecrire une fonction **suite_mystere(a : int ,b : int ,c : int)** qui renvoie le nombre d'étape nécessaire à la suite suite écrite si dessous pour que le résultat de la suite soit supérieur à 10000 :
 
-- U(n) = (U(n-1)+a+b)\
-- *c si U(n-1) est pair, U(n) =(U(n-1)+a+c)\*b sinon
+- U(n) = (U(n-1)+a+b)*c si U(n-1) est pair, U(n) =(U(n-1)+a+c)\*b sinon
 - U(0) = a+b 
 
 ```python
