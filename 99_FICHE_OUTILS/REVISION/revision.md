@@ -72,7 +72,7 @@ Ecrire une fonction **grille(nb_col,nb_ligne)** qui prend en paramètre deux ent
 
 ```python
 >>> grille(3,2)
-[[0,0,0],[0,0]]
+[[0,0,0],[0,0,0]]
 ```
 
 ### Exercice 8 :
