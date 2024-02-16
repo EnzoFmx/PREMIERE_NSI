@@ -48,7 +48,7 @@ def tri_selection(tab) :
         tab[ind] = tab[position_min]
         tab[position_min] = tmp        
         ind+=1
-    return pos_mini
+    return tab
 ```
 
 ## 2. Coût de l'algorithme :

@@ -18,7 +18,7 @@ def comp(elem1,elem2) :
     else:
         return 1
     
- def tri_insertion(tab) : 
+def tri_insertion(tab) : 
 		'''
 		Fonction qui trie un tableau grâce au tri par insertion
 		param tab: (list) tableau à trier
