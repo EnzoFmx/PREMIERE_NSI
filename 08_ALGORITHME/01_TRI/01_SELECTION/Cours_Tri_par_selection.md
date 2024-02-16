@@ -41,13 +41,13 @@ def tri_selection(tab) :
 	param tab: (list) tableau à trier
 	return :  (list) tableau trié
 	'''
-	mini = tab[ind]
-    pos_mini = ind
-    while ind < len(tab) :
-        if comp(tab[ind], mini) == -1  :
-            mini = tab[ind]
-            pos_mini = ind
-        ind = ind +1
+	ind = 0
+    while ind < len(tab) - 1 :
+        position_min = position_minimum(tab,ind)
+        tmp = tab[ind]
+        tab[ind] = tab[position_min]
+        tab[position_min] = tmp        
+        ind+=1
     return pos_mini
 ```
 
