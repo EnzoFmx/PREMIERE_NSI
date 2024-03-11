@@ -4,8 +4,8 @@
 
 A l'aide de la table ASCII : 
 
-1. Encoder votre nom en hexadécimal.
-2. Encoder la phrase : “Je suis heureux en NSI” hexadécimal
+1. Encoder votre prénom en hexadécimal.
+2. Encoder la phrase : “Je suis heureux.se en NSI” hexadécimal
 3. Encoder la phrase : “élève de NSI” hexadécimal
 4. Quelle sera la taille de la représentation de la phrase ‘Je suis un élève de NSI’ en codage ASCII et avec la norme ISO8859 ?  Et pour une chaîne de longueur n ?
 
