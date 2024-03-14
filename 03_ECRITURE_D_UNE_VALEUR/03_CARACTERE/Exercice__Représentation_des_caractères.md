@@ -38,10 +38,14 @@ Sauf que Bob est très têtu et ne veut pas s'aider de code déjà tout fait, il
 
 ## Exercice 3 : Chiffrement de César
 
-Le chiffrement de césar permet de rendre un message chiffré, c'est à dire qu'il ne sera à première vue pas compréhensible.
+Le chiffrement de César permet de rendre un message chiffré, c'est à dire qu'il ne sera à première vue pas compréhensible.
 
-Par exemple le texte 'OTJ' est le message codé de 'NSI'
+Par exemple le texte 'OTJ' est le message codé de 'NSI', une manipulation à été faite pour passer d'une chaîne à l'autre.
 
 1. Comment est on passé  du message 'NSI' vers 'OTJ' ?
 
-2. Une fois la méthode comprise écrire un algorithme *Chiffrement_cesar( )* prenant en paramètre un texte **t** et une valeur **v** permettant d'encoder.
+Une fois le mécanisme compris il faut l'écrire en python. Pour simplifier le programme nous allons ici prendre en compte seulement les caractères en majuscule (ABCDEFGHIJKLMNOPQRSTUVWXYZ).
+
+1. Une fois la méthode comprise écrire un algorithme *Chiffrement_cesar( t,v )* prenant en paramètre un texte **t** et une valeur **v** permettant d'encoder.
+   - Aide : Il est possible de faire cette fonction sans utiliser les méthodes `chr`et `ord` 
+2. Bonus : Prendre en compte les lettre en minuscule dans le code.
