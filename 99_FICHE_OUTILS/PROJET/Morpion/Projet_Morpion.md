@@ -18,6 +18,31 @@ Il s'agit d'une version basique du projet, il est possible (fortement conseillé
 
 Voici les noms de fonction créées pour ce projet :
 
+```python
+def jeu( ):
+	""" Fonction permettant de lancer le jeu du morpion"""
+
+def affiche_grille( grille ):
+  """ Fonction créant l'affichage de la grille
+  exemple : affiche_grille([[' ',' ',' '],[' ',' ',' '],[' ',' ',' '])
+  
+  |   |   |   |
+	|   |   |   |
+	|   |   |   |
+  """
+  
+def est_possible(coord, grille):
+  """Fonction vérifiant si un point aux coordonées coord peut être inséré dans la grille"""
+  
+def pose_point(grille, coord, signe) :
+  """Change la valeur de grille aux coordonées coord par signe"""
+  
+def est_fini(grille):
+  """Fonction vérifiant si la grille est considérée comme finie"""
+```
+
+
+
 - jeu( )
 - affiche_grille( grille )
 - est_possible(coord , grille)

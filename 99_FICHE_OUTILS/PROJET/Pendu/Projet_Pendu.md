@@ -16,9 +16,21 @@ Il s'agit d'une version basique du projet, il est possible (fortement conseillé
 
 Voici les noms de fonction créées pour ce projet :
 
-- jeu( )
-- init_mot( mot )
-- ajoute_lettre( mot_joueur1, mot_joueur2, lettre)
+```python
+def jeu( ):
+	"""	Fonction principale du code, permettant de faire fonctionner le jeu """
+
+def init_mot(mot) :
+  """ Fonction permettant de créer le mot avec les tirets
+  param mot : (str) mot à faire deviner
+  exemple : init_mot('tortue') => '------'
+  """
+
+def ajoute_lettre( mot_joueur1, mot_joueur2, lettre) :
+  """ Fonction ajoutant à mot_joueur2 la lettre si elle est présente dans mot_joueur1
+  exemple : ajoute_lettre( 'tortue','t--t--','r') => 't-rt--'
+  """
+```
 
 Evidemment, il ne faut pas faire exactement les mêmes fonctions, si il y a besoin de faire quelques fonctions de plus il faut les écrire.
 
