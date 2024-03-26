@@ -13,4 +13,4 @@
 - 98 PROJET [98 PROJET](./98_PROJET)
 - 99 FICHE OUTILS [99 FICHE OUTILS](./99_FICHE_OUTILS)
 - LICENSE [LICENSE](./LICENSE)
-- .DS Store [.DS Store](./.DS_Store)
+- .gitignore [.gitignore](./.gitignore)
