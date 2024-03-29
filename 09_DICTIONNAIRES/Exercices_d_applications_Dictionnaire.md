@@ -8,7 +8,7 @@ Ecrire une fonction nombre_occ(texte) qui prend un texte en paramètre et renvoi
 
 ```python
 >>> nombre_occ('phraase ')
-{'p':1,'h':1,'r':1,'a':2,'s':1,' ':1}
+{'p':1,'h':1,'r':1,'a':2,'s':1,'e': 1,' ':1}
 ```
 
 Bonus :  Ecrire une fonction nombre_occ_mot(texte) qui prend un texte en paramètre et renvoie un dictionnaire contenant tous les mots du texte et leur nombre d’apparition
