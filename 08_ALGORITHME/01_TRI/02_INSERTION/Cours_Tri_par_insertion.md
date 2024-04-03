@@ -19,20 +19,20 @@ def comp(elem1,elem2) :
         return 1
     
 def tri_insertion(tab) : 
-		'''
-		Fonction qui trie un tableau grâce au tri par insertion
-		param tab: (list) tableau à trier
-		return : (list) tableau trié
-		'''
-		taille = len(tab)
-		for ind in range(1,taille) : 
-				val_a_placer = tab[ind]
-				ind2 = ind
-				while ind2>0 and comp(tab[ind2-1],val_a_placer) > 1 :
-						tab[ind2] = tab[ind2-1]
-						ind2 = ind2 - 1 
-				tab[ind2] = val_a_placer
-		return tab
+    '''
+    Fonction qui trie un tableau grâce au tri par insertion
+    param tab: (list) tableau à trier
+    return : (list) tableau trié
+    '''
+    taille = len(tab)
+    for ind in range(1,taille) : 
+            val_a_placer = tab[ind]
+            ind2 = ind
+            while ind2>0 and comp(tab[ind2-1],val_a_placer) > 1 :
+                    tab[ind2] = tab[ind2-1]
+                    ind2 = ind2 - 1 
+            tab[ind2] = val_a_placer
+    return tab
 ```
 
 ## 2. Coût de l'algorithme :
