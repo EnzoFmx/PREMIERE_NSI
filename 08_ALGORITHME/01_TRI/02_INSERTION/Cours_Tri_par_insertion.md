@@ -28,7 +28,7 @@ def tri_insertion(tab) :
     for ind in range(1,taille) : 
             val_a_placer = tab[ind]
             ind2 = ind
-            while ind2>0 and comp(tab[ind2-1],val_a_placer) > 1 :
+            while ind2>0 and comp(tab[ind2-1],val_a_placer) > 0 :
                     tab[ind2] = tab[ind2-1]
                     ind2 = ind2 - 1 
             tab[ind2] = val_a_placer

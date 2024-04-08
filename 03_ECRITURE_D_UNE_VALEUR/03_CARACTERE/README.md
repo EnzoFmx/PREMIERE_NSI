@@ -4,5 +4,5 @@
 - Images [Images](./Images)
 - Chiffrement de vigenere.md [Chiffrement de vigenere.md](./Chiffrement_de_vigenere.md)
 - Correction.py [Correction.py](./Correction.py)
-- Cours Représentation des caractères.md [Cours Représentation des caractères.md](./Cours_Représentation_des_caractères.md)
-- Exercice  Représentation des caractères.md [Exercice  Représentation des caractères.md](./Exercice__Représentation_des_caractères.md)
+- Cours ReprÃ©sentation des caractÃ¨res.md [Cours ReprÃ©sentation des caractÃ¨res.md](./Cours_ReprÃ©sentation_des_caractÃ¨res.md)
+- Exercice  ReprÃ©sentation des caractÃ¨res.md [Exercice  ReprÃ©sentation des caractÃ¨res.md](./Exercice__ReprÃ©sentation_des_caractÃ¨res.md)
