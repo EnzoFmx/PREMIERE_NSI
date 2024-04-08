@@ -41,7 +41,7 @@ Pour chaque expression ci-dessous construire le circuit, prendre une capture d�
 - (A ET NON B) OU C
 - A XOR B (sans utiliser la porte XOR)
 - La première loi de De Morgan : NON (A ET B) ⇒ NON A OU NON B (Afficher les deux expressions sur le circuit)
-- La deuxième loi de De Morgan : NON ( A OU B) ⇒ NON A ET NON B (Afficher les deux expressions sur le circuit)
+- La deuxième loi de De Morgan : NON (A OU B) ⇒ NON A ET NON B (Afficher les deux expressions sur le circuit)
 
 - Le demi-additionneur : *(Retrouver l’expression booléenne dans le tableau ci-dessous)*
 
