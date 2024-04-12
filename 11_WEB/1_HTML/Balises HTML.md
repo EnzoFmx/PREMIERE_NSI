@@ -2,7 +2,7 @@
 
 Voici une liste non exhaustive de balises HTML : 
 
-### Formatage de la page:
+### Formatage de la page :
 
 | Nom de la balise | Utilisation                                                  | Exemple                                                  |
 | ---------------- | ------------------------------------------------------------ | -------------------------------------------------------- |
