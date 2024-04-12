@@ -2,9 +2,9 @@
 
 ## 1. Objectif :
 
-Le but du projet est de faire une page web avec les langages HTML/CSS sur le thème de votre choix. Le site doit contenir au minimum trois pages HTML accessiblent l'une aux autres.
+Le but du projet est de faire une page web avec les langages HTML/CSS sur le thème de votre choix. Le site doit contenir au minimum quatre pages HTML accessiblent l'une aux autres.
 
-Dans l'une de ces 3 pages doit être vide. Les deux autres pages sont libres.
+Deux de ces 4 pages doivent être vide. Les deux autres pages sont libres.
 
 L'intérêt du projet est de créer des interactions avec le visiteur de la page :
 
