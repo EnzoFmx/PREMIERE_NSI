@@ -28,13 +28,13 @@ Pour insérer une image nous utilisons une balise **img** celle-ci se présente 
 
 Ici nous souhaitons insérer une image de chat appelée *Image_de_chat.jpg*, il faut cependant que l'image soit dans le même dossier que la page HTML.
 
-![Image](./Images/Html_image.png)
+![Image](./Images/image.png)
 
 Il est possible de stocker l'image dans un dossier, la balise sera de la forme suivante :
 
 - \<img src='Images/Image_de_chat.jpg'>
 
-![Image](./Images/Html_image2.png)
+![Image](./Images/image2.png)
 
 Ici l'image est dans mon dossier **Images** alors je le précise dans la balise.
 
